@@ -1,64 +1,43 @@
-# React Project - Math Magician
+# Math Magicians
 
-This is a simple calculator app built with React.js framework and TypeScript programming Language. this calculator application is able to preform some basic Mathematical operations. To preform the mathematical I have used the tired party library called Big.js.
+A responsive calculator built with React and TypeScript. The interface uses reusable components and React state, with Big.js handling arithmetic.
 
-## Table of contents
+## Features
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- Basic mathematical operations.
+- Responsive layouts for desktop and mobile screens.
+- Interactive button states and a component-based interface.
 
-## Overview
+## Screenshot
 
-### The challenge
+![Math Magicians calculator on desktop](./design/desktop.png)
 
-Users should be able to:
+## Run locally
 
-- View the optimal layout for each page depending on their device's screen size.
-- See hover states for all interactive elements on the page.
-- Preform Basic Mathematical operations.
-- The project have to be built using React Components and state management.
+Install Node.js and npm, then run:
 
-### Screenshot
-
-| Desktop version                              |
-| -------------------------------------------- |
-| ![Solution Screenshot](./design/desktop.png) |
-
-### Run the project Locally
-
-In order to install and run the project in your local machine follow the
-following steps:
-
-```
-git clone https://github.com/MahdiSohaily/Math-magicians.git
+```sh
+git clone https://github.com/MahdiRezaeiDev/Math-magicians.git
 cd Math-magicians
 npm install
 npm start
 ```
 
-## My process
+## Built with
 
-### Built with
+- React and TypeScript
+- Big.js
+- Semantic HTML and CSS
+- CSS Grid and Flexbox
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- React.js framework
-- TypeScript
+## Author and contributors
 
-## Author
+Created by [Mahdi Rezaei](https://github.com/MahdiRezaeiDev), with contributions from [Shaker AbuDrais](https://github.com/shakerAbuDrais).
 
-- Frontend Mentor - [@MahdiSohaily](https://www.frontendmentor.io/profile/MahdiSohaily)
-- Twitter - [@Mahdi_Rezaei_AF](https://twitter.com/Mahdi_Rezaei_AF)
-- linkedIn - [@Mahdi-rezaei](https://www.linkedin.com/in/mahdi-rezaei-74705713b)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/MahdiSohaily)
+- [LinkedIn](https://www.linkedin.com/in/rezaei-mahdi/)
+- [Twitter / X](https://twitter.com/Mahdi_Rezaei_AF)
+
+## License
+
+This project is available under the [MIT License](./LICENSE).
